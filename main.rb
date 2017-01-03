@@ -1,6 +1,6 @@
 require 'telegram/bot'
 
-TOKEN = '329791450:AAHzwFOgIxz1c8-jKAafQ65dvX3omu9cr64'
+TOKEN = ENV['TELEGRAM_API']
 
 ANSWERS = [
     # Положительные
